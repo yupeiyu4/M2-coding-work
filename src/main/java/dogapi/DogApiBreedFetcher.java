@@ -47,7 +47,7 @@ public class DogApiBreedFetcher implements BreedFetcher {
             return subBreeds;
 
         } catch (Exception e) {
-            throw new BreedNotFoundException("Error fetching sub-breeds for breed: " + breed, e);
+            throw new BreedNotFoundException("Error fetching sub-breeds for breed: " + breed);
         }
     }
 }
