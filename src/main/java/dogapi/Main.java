@@ -28,7 +28,6 @@ public class Main {
             List<String> subBreeds = breedFetcher.getSubBreeds(breed);
             return subBreeds.size();
         } catch (BreedFetcher.BreedNotFoundException e) {
-            // If the breed does not exist, print the error and return 0 (since no sub-breeds)
             System.out.println("Error: " + e.getMessage());
             return 0;
         }
