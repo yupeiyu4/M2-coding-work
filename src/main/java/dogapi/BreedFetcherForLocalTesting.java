@@ -1,6 +1,6 @@
 package dogapi;
 
-import j&ava.util.List;
+import java.util.List;
 
 /**
  * A minimal implementation of the BreedFetcher interface for testing purposes.
