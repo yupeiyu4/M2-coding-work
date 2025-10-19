@@ -50,7 +50,7 @@ public class DogApiBreedFetcher implements BreedFetcher {
             return subBreeds;
 
         } catch (IOException e) {
-            return new ArrayList<>();
+            throw new BreedNotFoundException(breed);
         }
     }
 }
